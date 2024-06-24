@@ -1,0 +1,8 @@
+server:
+  port: ${PORT_INTERNAL_DEV:8081}
+
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_DEV_URL:jdbc:postgresql://postgre:5432/inventory_service}
+    username: ${SPRING_DATASOURCE_USERNAME:postgres}
+    password: ${SPRING_DATASOURCE_PASSWORD:postgres}
